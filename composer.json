@@ -1,0 +1,23 @@
+{
+    "name": "bright-webb/easy-api",
+    "description": "For simple api development",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "EasyAPI\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "bright-webb",
+            "email": "webilorbright@outlook.com"
+        }
+    ],
+    "require": {
+        "bright-webb/cobra": "^1.0",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
